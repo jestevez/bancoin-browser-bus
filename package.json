@@ -5,10 +5,10 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:wavesplatform/bancoin-browser-bus.git"
+    "url": "git@github.com:bancoinplatform/bancoin-browser-bus.git"
   },
   "bugs": {
-    "url": "https://github.com/wavesplatform/bancoin-browser-bus/issues"
+    "url": "https://github.com/bancoinplatform/bancoin-browser-bus/issues"
   },
   "devDependencies": {
     "@types/jest": "^24.0.4",
