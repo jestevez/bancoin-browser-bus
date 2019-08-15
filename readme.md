@@ -26,7 +26,7 @@
 
 На стороне родительского окна:
 ```javascript
-    import { Bus, WindowAdapter } from '@waves/waves-browser-bus';
+    import { Bus, WindowAdapter } from '@bancoin/bancoin-browser-bus';
 
     const url = 'https://some-iframe-content-url.com';
     const iframe = document.createElement('iframe');
@@ -43,7 +43,7 @@
 ```
 На стороне iframe:
 ```javascript
-    import { Bus, WindowAdapter } from '@waves/waves-browser-bus';
+    import { Bus, WindowAdapter } from '@bancoin/bancoin-browser-bus';
     WindowAdapter.createSimpleWindowAdapter().then(adapter => {
         const bus = new Bus(adapter);
         
